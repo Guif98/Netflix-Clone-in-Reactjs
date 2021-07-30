@@ -1,14 +1,17 @@
 import React from 'react';
+import Navbar from './Navbar';
 import MovieList from './MovieList';
+import Category from './Category';
 import {data} from './categories';
 
 
 function App() {
   return (
     <div>
+      <Navbar></Navbar>
       {data.map((category, index) => {
           return (
-          <h2 key={index}>{category}</h2>,
+          <Category>{category}</Category>,
           <MovieList></MovieList>
       )})}
     </div>
