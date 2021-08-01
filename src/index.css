@@ -7,6 +7,10 @@ body {
   color: #fff;
 }
 
+main {
+  margin: 66px 3%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -20,6 +24,7 @@ code {
 .movieTitle {
   color: #fff;
   font-size: 16px;
+  margin: 0.2em;
   text-align: center;
 }
 
@@ -67,10 +72,31 @@ code {
   border-radius: 2px;
   border: #fff solid 1px;
   color: #fff;
-  padding: 10px 2em;
+  padding: 9px 2em;
   cursor: pointer;
 }
 
 .btn-login:hover {
   background-color: rgb(37, 36, 36);
+}
+
+.collection-header {
+  display: block;
+  margin: 36px 0;
+}
+
+.collection-header-name {
+  font-size: 30px;
+  color: #fff;
+  max-width: 598px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 0%;
+}
+
+.collection-description {
+  max-width: 598px;
+  font-size: 19px;
+  margin-top: 12px;
 }

@@ -13,7 +13,7 @@ export const data = [
     },
     {
         url: 'https://occ-0-4301-559.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABad8ord47M1DaKHuu4lc6Lqr10NlThkZ-M6LoxE3mmHsfCjEzbCoQ0snXv8DGiY-r5pb5h4WxGyJA92dmAeK35Qlin-2Fw1kZRmUfnEmMJh7JId1OcgSIpwT3DBb.jpg?r=926',
-        title: 'Céu Vermelho-Sangue' 
+        title: 'Céu Vermelho-Sangue',
     },
     {
         url: 'https://occ-0-4301-559.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWOm54nPaye2YHGws7Kmu8ktUfyckI-ICXMwgJu3yjYo7UycZp8jnR1nK8JlcM_bpb9iM4n5IGyagMn181xuXfjWeIw.jpg?r=e29',

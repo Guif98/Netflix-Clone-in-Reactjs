@@ -1,19 +1,24 @@
 import React from 'react';
 import Navbar from './Navbar';
 import MovieList from './MovieList';
+import Header from './Header';
 import Category from './Category';
-import {data} from './categories';
+import {categories} from './categories';
 
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
-      {data.map((category, index) => {
+      <main>
+      <Header header="Favoritos da crítica" description="Aprovados por quem entende de filme. Esses dramas policiais, comédias românticas, suspenses e documentários premiados estão entre os queridinhos dos críticos."></Header>
+      {categories.map((item, index) => {
+        console.log(item)
           return (
-          <Category>{category}</Category>,
+          <Category cat={item}></Category>,
           <MovieList></MovieList>
       )})}
+      </main>
     </div>
   )
 }
